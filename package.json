@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "http://TorranceYang.github.io/interactive-comic",
-  "homepage": "http://gitname.github.io/react-gh-pages",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
@@ -12,7 +11,7 @@
     "gh-pages": "^1.0.0",
     "react-scripts": "1.0.7"
   },
-    "predeploy": "npm run build",
+  "predeploy": "npm run build",
   "scripts": {
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
