@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Strip, Panel, Character, Balloon } from 'react-komik';
+import { Strip, Panel, Character, Balloon } from './modified_komik/Komik';
 var imgUrl = 'https://sonny.js.org/react-komik/dist/';
 
 class Panel1 extends Component {
@@ -17,7 +17,7 @@ class Panel1 extends Component {
           </Character>
         </Panel>
         <Panel>
-          <Character image="Panel1-Stick-Close.svg" scale="0.1">
+          <Character image="Panel1-Stick-Close.png" scale="0.1">
             <Balloon 
               text="For instance, despite me using a separate asset for a close up, you still understand that I'm the same person." 
               image={imgUrl + "chat_left.svg"} height="150" left="-150"/>

@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import Panel1 from './Panel1';
 import Panel2 from './Panel2';
+import Panel3 from './Panel3';
+import Panel4 from './Panel4';
+import Panel5 from './Panel5';
+import Panel6 from './Panel6';
 
 //The way component moving is handled is super sketchy, but I'm in a time crunch so this will work
 class App extends Component {
@@ -9,7 +13,7 @@ class App extends Component {
     super(props);
     this.state = {
       currentPanel: 0,
-      panels: [<Panel1 />, <Panel2 />]
+      panels: [<Panel1 />, <Panel2 />, <Panel3 />, <Panel4 />, <Panel5 />, <Panel6 />]
     };
   }
 

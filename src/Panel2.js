@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Strip, Panel, Character, Balloon } from 'react-komik';
+import { Strip, Panel, Character, Balloon } from './modified_komik/Komik';
 var imgUrl = 'https://sonny.js.org/react-komik/dist/';
 
 class Panel2 extends Component {
@@ -7,11 +7,11 @@ class Panel2 extends Component {
     return (
       <Strip column="1" title="" fontFamily="Patrick Hand" fontSize="13">
         <Panel>
-          <Character image="Panel1-Stick-Close.svg" scale="0.1">
+          <Character image="Panel1-Stick-Close.png" scale="0.1">
             <Balloon 
               text="And, without being told, you know how to turn the page." 
               image={imgUrl + "chat_left.svg"} height="110" left="-100"/>
-              <Balloon 
+            <Balloon 
               text="Connection and interaction are two parts of comics that I believe can evolve in the coming years." 
               image={imgUrl + "chat_right.svg"} height="150" left="100" bottom="-120"/>
           </Character>
