@@ -6,6 +6,11 @@ import Panel3 from './Panel3';
 import Panel4 from './Panel4';
 import Panel5 from './Panel5';
 import Panel6 from './Panel6';
+import Panel7 from './Panel7';
+import Panel8 from './Panel8';
+import Panel9 from './Panel9';
+import Panel10 from './Panel10';
+import Panel11 from './Panel11';
 
 //The way component moving is handled is super sketchy, but I'm in a time crunch so this will work
 class App extends Component {
@@ -13,7 +18,7 @@ class App extends Component {
     super(props);
     this.state = {
       currentPanel: 0,
-      panels: [<Panel1 />, <Panel2 />, <Panel3 />, <Panel4 />, <Panel5 />, <Panel6 />]
+      panels: [<Panel1 />, <Panel2 />, <Panel3 />, <Panel4 />, <Panel5 />, <Panel6 />, <Panel7 />, <Panel8 />, <Panel9 />, <Panel10 />, <Panel11 />]
     };
   }
 

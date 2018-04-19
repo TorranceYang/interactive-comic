@@ -19,13 +19,13 @@ class Panel2 extends Component {
         <Panel>
           <Character 
               image="Panel2-Hello.png" scale="0.27" bottom="50" />
-          <Character image="Panel2-Stick.png" scale="0.3">
+          <Character image="Panel2-Stoppeed.png" scale="0.4">
             <Balloon 
               text="I've attempted to try something like that with this project." 
-              image={imgUrl + "chat_left.svg"} bottom="-50  " height="110" left="-110"/>
+              image={imgUrl + "chat_left.svg"} bottom="-50  " height="110" left="-90"/>
             <Balloon 
               text="This entire comic is interactable with! Try moving me around." 
-              image={imgUrl + "chat_right.svg"} height="130" left="50"/>
+              image={imgUrl + "chat_right.svg"} height="130" left="60"/>
           </Character>
         </Panel>
       </Strip>
